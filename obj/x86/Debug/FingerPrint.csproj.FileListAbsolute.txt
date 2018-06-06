@@ -1,0 +1,14 @@
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\bin\Debug\FingerPrint.exe
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\bin\Debug\FingerPrint.pdb
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.Properties.Resources.resources
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.csproj.GenerateResource.Cache
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.exe
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.pdb
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\bin\Debug\FingerPrint.exe.config
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.csprojResolveAssemblyReference.cache
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.Token.resources
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.add_anchors.resources
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.Send.resources
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.FormFloorPlan.resources
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.Form1.resources
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.add_fingerprint.resources

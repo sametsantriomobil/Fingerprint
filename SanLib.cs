@@ -60,8 +60,8 @@ namespace SanLib
             image_x = map_x;
             image_y = height - map_y;
 
-            real_x = (double)map_x / scale;
-            real_y = (double)map_x / scale;
+            real_x = Math.Round((double)map_x / scale, 2);
+            real_y = Math.Round((double)map_y / scale, 2);
 
         }
 
@@ -74,8 +74,8 @@ namespace SanLib
             map_x = image_x;
             map_y = height - image_y;
 
-            real_x = (double)map_x / scale;
-            real_y = (double)map_y / scale;
+            real_x = Math.Round((double)map_x / scale, 2);
+            real_y = Math.Round((double)map_y / scale, 2);
 
           
         }

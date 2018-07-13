@@ -12,3 +12,4 @@ D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.Se
 D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.FormFloorPlan.resources
 D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.Form1.resources
 D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.add_fingerprint.resources
+D:\Projeler\Src\FingerPrint\FingerPrint\FingerPrint\obj\x86\Debug\FingerPrint.EditFP.resources

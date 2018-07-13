@@ -89,6 +89,18 @@
     <Compile Include="add_fingerprint.Designer.cs">
       <DependentUpon>add_fingerprint.cs</DependentUpon>
     </Compile>
+    <Compile Include="Converter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Converter.Designer.cs">
+      <DependentUpon>Converter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditFP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditFP.Designer.cs">
+      <DependentUpon>EditFP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="add_fingerprint.resx">
       <DependentUpon>add_fingerprint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditFP.resx">
+      <DependentUpon>EditFP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

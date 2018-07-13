@@ -29,7 +29,7 @@ namespace FingerPrint
     {
         public String project_name = "FingerPrint";
         public String file_extension = "triofp";
-        public Int32 default_map_width = 1200;
+        public Int32 default_map_width = 1024;
 
         public TrioPath trio_folder;
         public char tag='\t';
@@ -397,20 +397,22 @@ namespace FingerPrint
 
                 listView2.Items.Clear();
 
-                if(anchor_table.Rows.Count >0)
-                foreach (DataRow row in anchor_table.Rows)
-                {
-                    String[] im = { row["addr"].ToString(), row["rssi"].ToString(), row["x"].ToString(), row["y"].ToString() };
-                    ListViewItem s = listView2.Items.Add(new ListViewItem(im));
-
-                    if (s.Index == SelectedAnchorIndex)
+                if (anchor_table.Rows.Count > 0)
+                    for (int i = 0; i < anchor_table.Rows.Count;i++ )
                     {
-                        s.Focused = true;
-                        s.Selected = true;
+                        DataRow row = anchor_table.Rows[i];
+                        String[] im = { row["addr"].ToString(), row["rssi"].ToString(), row["x"].ToString(), row["y"].ToString() };
+                       ListViewItem s = listView2.Items.Add(new ListViewItem(im));
+                  
+                        
+                         if (s.Index == SelectedAnchorIndex)
+                         {
+                             s.Focused = true;
+                             s.Selected = true;
+                         }
                     }
-                }
 
-
+               
 
                 Graphics grp = Graphics.FromImage(img2);
                 Bitmap red = new Bitmap(redLoc.Image, new Size(18, 26));
@@ -824,7 +826,7 @@ namespace FingerPrint
                        
                         Int32 nh = Convert.ToInt32( bt.Height / sc);
                         FloorPlan_Scale =Convert.ToInt32( FloorPlan_Scale / sc);
-                        img = new Bitmap(bt,new Size(1024,nh));
+                        img = new Bitmap(bt, new Size(default_map_width, nh));
                         img2 = new Bitmap(img);
 
                     }
@@ -877,8 +879,14 @@ namespace FingerPrint
         private void loogFP(object sender, MouseEventArgs e)
         {
             String data = listView3.Items[SelectedFingerprintIndex].SubItems[3].Text;
-            MessageBox.Show(data);
-            
+
+            EditFP fp = new EditFP();
+            fp.data = data;
+
+            if (fp.ShowDialog() == DialogResult.OK)
+            {
+                listView3.Items[SelectedFingerprintIndex].SubItems[3].Text = fp.data;
+            }
 
 
         }
@@ -891,8 +899,6 @@ namespace FingerPrint
             if (SelectedFingerprintIndex > -1 && e.KeyCode == Keys.Delete) Delete_FingerPrint();
                 
         }
-
-        
 
       
     }
